@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    border: 5px solid salmon;
+}
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+.nav-icon img {
+    width: 3rem;
+    height: 1.5rem;
+    margin-right: 10px;
+
+}
+.nav-icon > h2 {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.nav-icon > h2 > strong {
+    color: #FF42A5;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+.nav-items > ul {
+    display: flex;
+}
+.nav-items > ul > li {
+    list-style-type: none;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.follow-us {
+    background-color: #E7E6E9;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+.follow-us > a > i {
+    padding: 5px;
+}
