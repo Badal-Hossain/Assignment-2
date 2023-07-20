@@ -3,12 +3,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
+/* nav section */
 nav {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
-    border: 5px solid salmon;
+    margin-bottom: 10px;
 }
 .nav-icon {
     display: flex;
@@ -18,7 +20,6 @@ nav {
     width: 3rem;
     height: 1.5rem;
     margin-right: 10px;
-
 }
 .nav-icon > h2 {
     font-weight: bold;
@@ -46,6 +47,26 @@ nav {
     padding: 7px 12px;
     border-radius: 5px;
 }
-.follow-us > a > i {
+.follow-us span {
+    font-size: 0.9rem;
+}
+.fa-youtube {
+    color: red;
     padding: 5px;
+}
+.fa-tiktok {
+    color: black;
+}
+/* nav section */
+/* play section */
+.play {
+    background-color: #ebeaee;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.play-section-image img {
+    height: 440px;
+    width: 440px;
 }
