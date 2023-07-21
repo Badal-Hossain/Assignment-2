@@ -10,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 .nav-icon {
     display: flex;
@@ -44,7 +44,7 @@ nav {
 }
 .follow-us {
     background-color: #E7E6E9;
-    padding: 7px 12px;
+    padding: 5px 12px;
     border-radius: 5px;
 }
 .follow-us span {
@@ -58,6 +58,7 @@ nav {
     color: black;
 }
 /* nav section */
+
 /* play section */
 .play {
     background-color: #ebeaee;
@@ -66,7 +67,94 @@ nav {
     justify-content: space-between;
     padding: 0 100px;
 }
+.play-section-content {
+    margin-top: 100px;
+}
+.play-section-content h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.play-section-content h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #A154E3;
+    color: #C84FCD;
+}
+.click-play, .no-download, .game-nos {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.click-play p, .no-download p, .game-nos p {
+    margin-left: 5px;
+}
 .play-section-image img {
-    height: 440px;
-    width: 440px;
+    height: 420px;
+    width: 420px;
+}
+.play-section-btns {
+    margin-top: 20px;
+}
+.sign {
+    padding: 12px 20px;
+    background-color: #FF42A5;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+.rogue {
+    padding: 12px 20px;
+    background-color: #4EC5F7;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+/* play-section */
+@media screen and (max-width: 576px) {
+    * {
+        text-align: center;
+    }
+    nav, .nav-items, .nav-items > ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .play {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0 50px;
+        height: 85vh;
+    }
+    .play-section-image{
+        justify-content: center;
+    }
+    .play-section-image img {
+        height: 100%;
+        width: 100%;
+    }
+    .play-section-content {
+        margin-top: 50px;
+    }
+    .play-section-content div {
+        margin-left: 30px;
+    }
+    .play-section-btns {
+        text-align: left;
+    }
 }
